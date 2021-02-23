@@ -1,5 +1,21 @@
 body {
-    background-color: rgb(63, 177, 230);
+    background-color: white;
+   
+    /* background-color: whitesmoke; */
+}
+.background {
+    position: fixed;
+    display: block;
+    background-image: url('img/Background.jpg');
+    background-position: center;
+    background-size:cover;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+    opacity: .7;
 }
 
 header {
@@ -29,14 +45,9 @@ h1 {
     margin: 10px;
 }
 
-
-img {
-
-}
-
 .modal {
     position: fixed;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -70,6 +81,8 @@ img {
     width: 50%;
 }
 
+
+
 .close {
     color: black;
     float: right;
@@ -83,3 +96,40 @@ img {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#film-release-date, #film-director {
+    font-size: 20px;
+    text-align: center;
+}
+
+#film-description {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#SpiritedAway {
+    background-image: url('img/SpiritedAway.jpg');
+}
+
+#CastleintheSky {
+    background-image: url('img/castle-in-the-sky.jpg');
+}
+
+#GraveoftheFireflies {
+    background-image: url('img/grave-of-the-fireflies.jpg');
+}
+
+#MyNeighborTotoro {
+    background-image: url('img/totoro.jpg');
+}
+
+#kiki {
+    background-image: url('img/kiki.jpg');
+}
+
+#onlyyesterday {
+    background-image: url('img/onlyyestback.png');
+}
+
