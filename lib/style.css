@@ -74,7 +74,7 @@ h1 {
 }
 
 .modal-content-image {
-    background-image: url('img/SpiritedAway.jpg');
+    background-image: url('img/https___hypebeast.com_image_2020_04_studio-ghibli-free-wallpaper-download-info-00.jpg');
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -97,16 +97,19 @@ h1 {
   cursor: pointer;
 }
 
+.visible {
+    display: flex;
+}
 
 #film-release-date, #film-director {
-    font-size: 20px;
+    font-size: 2vw;
     text-align: center;
 }
 
 #film-description {
     text-align: center;
     padding: 10px;
-    font-size: 30px;
+    font-size: 1.5vw;
 }
 
 #SpiritedAway {
